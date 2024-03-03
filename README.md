@@ -1,4 +1,4 @@
-# Account Management System with State Pattern (Java)
+# Account Management System with State Pattern
 
 ##### Overview
 A bank needs to manage different states of customer accounts: active, suspended, and closed. Each state imposes specific rules and restrictions on allowed operations, and accounts come with attributes like account number and balance.
