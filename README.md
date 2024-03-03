@@ -1,4 +1,4 @@
-#### Account Management System with State Pattern (Java)
+# Account Management System with State Pattern (Java)
 
 ##### Overview
 A bank needs to manage different states of customer accounts: active, suspended, and closed. Each state imposes specific rules and restrictions on allowed operations, and accounts come with attributes like account number and balance.
@@ -27,4 +27,7 @@ To address this issue and enhance code maintainability and flexibility, the Stat
 - Introduce a reference to the current `AccountState` object.
 - Delegate actions like deposit, withdraw, activate, suspend, and close to the current state object through its corresponding methods.
 
+
+# UML Diagram
+![StatePatternDiagram](https://github.com/lloydestrada/StatePattern/assets/142376663/2643babe-1f98-4dfd-8a12-8f5f40c6bcde)
 
